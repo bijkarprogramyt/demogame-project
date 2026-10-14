@@ -1,0 +1,22 @@
+@import "color.scss";
+@import "position.scss";
+@import "sizing.scss";
+@import "var.scss";
+@import "border.scss";
+
+.gameDislay {
+  width: $oneHnPr;
+  height: $towHnPx;
+  background-color: $blueCol;
+  margin: $autoVal;
+  position: $relPos;
+  top: 100px;
+  #Player {
+  background-color: $redCol;
+  width: $etti;
+  height: $etti;
+  position: $relPos;
+  top: 60px;
+  left: 10px;
+  }
+}
