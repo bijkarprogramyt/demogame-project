@@ -14,5 +14,23 @@
   top: 60px;
   left: 10px;
 }
+.gameDislay .playerControlDiv #playerJumpBtn {
+  width: 100%;
+  height: 100vh;
+  max-width: 80px;
+  max-height: 40px;
+  cursor: pointer;
+  position: relative;
+  left: 80%;
+  text-transform: uppercase;
+}
+.gameDislay .playerControlDiv #playerJumpBtn:hover {
+  text-transform: uppercase;
+  background-color: yellow;
+  border: 2px solid white;
+  color: 2px solid white;
+  font-weight: bold;
+  border-radius: 3px;
+}
 
 /*# sourceMappingURL=main.css.map */

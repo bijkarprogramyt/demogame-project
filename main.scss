@@ -19,4 +19,24 @@
   top: 60px;
   left: 10px;
   }
+  .playerControlDiv {
+    #playerJumpBtn {
+        width: $oneHnPr;
+        height: $oneHnVh;
+        max-width: $etti;
+        max-height: $fottiPx;
+        cursor: $poiSor;
+        position: $relPos;
+        left: 80%;
+        text-transform: $upperVar;
+    }
+    #playerJumpBtn:hover {
+        text-transform: $upperVar;
+        background-color: $yellowCol;
+        border: $whBorder2px;
+        color: $whBorder2px;
+        font-weight: $boldVar;
+        border-radius: 3px;
+    }
+  }
 }
